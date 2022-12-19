@@ -1,6 +1,6 @@
 ﻿string loc;
 Console.WriteLine("Введите первую букву Страны: б – Беларусь, Минск, р – Россия, Москва, л –Литва, Вильнюс");
-string Country = Console.ReadLine();
+string Country = Console.ReadLine()!;
 switch (Country)
 {
     case "б": loc = "Беларусь, Минск"; break;
